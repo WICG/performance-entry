@@ -1,4 +1,6 @@
-# Custom Performance Entries Explainer
+## Custom Performance Entries Explainer
+
+# *Deprecated in favor of L3 proposal discussed [here](https://github.com/w3c/user-timing/issues/43).*
 
 [PerformanceObserver](https://w3c.github.io/performance-timeline/#the-performanceobserver-interface) provides a consistent way for the browser to expose performance information to web developers and analytics packages in the wild. However, there are times when web developers have performance insights they’d like to process alongside the information the browser provides. Web developers should be able to communicate their own information to performance observers, with rich annotation, enabling their centralized performance monitoring logic and third party analytics tooling to integrate data from the browser with insights from the web page.
 
