@@ -56,7 +56,7 @@ function dispatchPaintToInputIfAvailable() {
   if (firstTouchStartTime == null || firstContentfulPaintTime == null)
     return;
   performance.queueEntry({
-    "first-contentful-paint-to-touch-start",
+    name: "first-contentful-paint-to-touch-start",
     startTime: firstContentfulPaintTime,
     duration: firstTouchStartTime - firstContentfulPaintTime,
     detail: {id: firstTouchStartTargetId},
